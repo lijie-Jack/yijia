@@ -11,9 +11,14 @@
     <!-- 定义将项目打包成war包 -->
     <packaging>war</packaging>
 
+
     <build>
     <!-- 此处为project build，针对整个项目的所有情况都有效。该配置可以被 profile 全部继承。-->
 
+        <!-- 指定war包名称-->
+        <finalName>yijia</finalName>
+
+        <!-- 配置插件-->
         <plugins>
             <!--添加maven编译组件-->
             <plugin>
